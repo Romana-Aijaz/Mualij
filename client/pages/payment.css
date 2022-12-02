@@ -1,0 +1,120 @@
+.leftContainer {
+    height: calc(100vh-50px);
+    padding: 10px;
+    width: 400px;
+    align-items: center;
+    justify-content: "center";
+    text-align: center;
+}
+.leftContainerWrapper {
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    position: sticky;
+    text-align: center;
+    margin: auto;
+}
+.paymentMethods {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+.leftContainerDivider {
+    width: 419px;
+}
+.payWithText {
+    text-align: center;
+    font-size: 25px;
+}
+.vl {
+    border-left: 6px solid #42b72a;
+    height: 500px;
+}
+.middleContainer {
+    margin-left: 420px;
+    margin-top: -236px;
+    height: 700px;
+    padding: 20px;
+}
+.headerMenuIcon {
+ background-color: #42b72a;
+ height: 50px;
+ width: 50px;
+ border-radius: 5px;
+ color: white;
+ margin-bottom: -3px;
+ cursor: pointer;
+}
+.emailId {
+    margin-left: 800px;
+}
+.middleContainerBody {
+    text-align: center;
+}
+.paymentButton {
+    background-color: #e4c279;
+    height: 40px;
+    width: 70px;
+    font-size: 20px;
+    border-width: 0px;
+}
+.userPaymentDetails{
+    text-align: center;
+    margin-top: 20px;
+}
+.cardDetails {
+   margin-top: 20px;
+   border: solid gray;
+   border-width: 1px;
+   border-radius: 5px;
+   height: 80px;
+   padding: 50px;
+   text-align: left;
+   
+}
+.creditCardHeading {
+    font-size: 30px;
+    font-weight: bold;
+}
+.cardNumberDetail {
+    font-weight: lighter;
+    font-size: 25px;
+}
+.cardInput {
+    margin-top: 30px;
+    height: 50px;
+    font-size: 30px;
+    font-weight: lighter;
+    border-width: 0px;
+}
+.cardExpiryDetails {
+    margin-top: 20px;
+    border: solid gray;
+    border-width: 1px;
+    border-radius: 5px;
+    height: 80px;
+    padding: 50px;
+    text-align: left;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.submitContainer {
+margin-top: 20px;
+height: 150px;
+}
+.submitBtn {
+    border-radius: 5px;
+    width: 100%;
+    height: 50px;
+    font-size: 20px;
+    background-color: #42b72a;
+    border-width: 0px;
+}
+hr {
+    border-width: 0.3px;
+    color: rgb(181, 177, 177);
+}
+.bankIcon {
+    font-size: 25px;
+    margin-right: 10px;
+}
