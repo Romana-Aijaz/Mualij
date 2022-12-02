@@ -1,0 +1,97 @@
+.rightSideBar {
+    flex: 3.5;
+    height: 400px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+    box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+    margin-top: 27px;
+    margin-left: 50px;
+    margin-right: 40px;
+    width: 100px;
+}
+.rightSideBarWrapper {
+    padding: 20px;
+    justify-content: space-between;
+    background-color: white;
+    height: 400px;
+}
+.rightBarFriendList {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.rightBarFriend {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.rightBarProfileImgContainer {
+    margin-right: 10px;
+    position: relative;
+}
+.rightBarProfileImg {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.rightBarOnline {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: rgb(55, 215, 87);
+    position:absolute;
+    top: -2px;
+    right: 0;
+    border: 2px solid white;
+}
+.rightBarUsername {
+    font-weight: 500;
+
+}
+.rightBarTitle {
+margin-bottom: 20px;
+}
+.viewOnlineFriendsBtn {
+color: #2d83f4;
+background-color: white;
+border: 0px;
+font-size: 14px;
+font-weight: bold;
+}
+.userInformationTitle {
+font-size: 18px;
+font-weight: 500;
+margin-bottom: 10px;
+}
+.rightBarInformationContainer {
+margin-bottom: 30px;
+}
+.rightBarInformationItem {
+margin-bottom: 10px;
+}
+.rightBarInformationKey {
+font-weight: 500;
+margin-right: 15px;
+color: #555;
+}
+.rightBarInformationKeyValue {
+font-weight: 300;
+}
+.rightBarFollowingImg {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.rightBarFollowingContainer {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-evenly;
+}
+.rightBarFollowing {
+display: flex;
+flex-direction: column;
+margin-bottom: 20px;
+cursor: pointer;
+}

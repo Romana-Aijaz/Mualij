@@ -1,0 +1,132 @@
+.leftSideBar {
+    flex: 2;
+    height: calc(100vh-50px);
+    padding: 25px;
+    
+top: 50px;
+}
+.leftSideBarWrapper1 {
+    border: solid 1px;
+    border-color: #bbb;
+    justify-content: center;
+    align-items: center;
+   width: 220px;
+   position: sticky;
+}
+.coverPageImage {
+    width: 220px;
+    height: 80px;
+}
+.profileImage {
+    width: 80px;
+   height: 75px;
+   border-radius: 50%;
+   margin-left: 65px;
+   margin-top: -50px;
+   border: solid;
+   border-color: white;
+}
+.aboutContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 220px;
+}
+.aboutInformation {
+    margin-top: 4px;
+    text-align: center;
+    font-size: 14px;
+    color: rgb(110, 110, 110);
+}
+.solid {
+    border-top: 1px #bbb;
+    width: 220px;
+    margin-top: 10px;
+}
+.viewInformationContainer {
+    display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 220px;
+}
+.viewsInformation {
+    text-align: center;
+    font-size: 21px;
+    color:#2d83f4;
+        margin-left: 100px;
+}
+.aboutMiddleContainer {
+    margin-top: 15px;
+}
+.followersInformation {
+    text-align: center;
+    font-size: 21px;
+    color: #2d83f4;
+    margin-left: 100px;
+}
+.userNameContainer {
+    display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 220px;
+        margin-top: 10px;
+}
+.userName {
+    font-weight: bold;
+    text-align: center;
+        font-size: 20px;
+        cursor: pointer;
+        color: rgb(6, 4, 4);
+}
+.leftSideBarWrapper2 {
+    border: solid 1px;
+        border-color: #bbb;
+        justify-content: center;
+        align-items: center;
+        width: 220px;
+        margin-top: 20px;
+}
+.leftSideBarList {
+    margin-top: 5px;
+    margin-left: -19px;
+    list-style: none;
+}
+.leftSideBarListItem {
+    display: flex;
+    margin-bottom: 20px;
+}
+.leftSideBarListIcon {
+margin-right: 15px;
+cursor: pointer;
+}
+.leftSideBarListText {
+text-align: center;
+cursor: pointer;
+}
+.leftSideBarButton {
+width: 150px;
+border-radius: 5px;
+font-weight: bold;
+border: 0px;
+display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: #2d83f4;
+    background-color: white;
+    cursor: pointer;
+}
+.leftSideBarHr {
+    margin: 20px 0;
+}
+.leftSideBarListHeading {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 17px;
+    margin-top: 12px;
+}
+.leftSideBarListIconNext {
+    margin-top: 10px;
+}

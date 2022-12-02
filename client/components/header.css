@@ -1,0 +1,104 @@
+.headerContainer {
+    height: 50px;
+    width: 100%;
+    background-color: #2d83f4;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+.logo {
+    font-size: 24px;
+    margin-left: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+.searchIcon {
+    font-size: 17px !important;
+    margin-left: 10px;
+}
+.searchInput {
+    border: none;
+    width: 70%;
+    outline: none;
+    margin-left: 7px;
+}
+.searchBar {
+    width: 50%;
+    background-color: rgb(246, 255, 255);
+    height: 30px;
+    border-radius: 30px;
+    align-items: center;
+    display: flex;
+}
+.headerLeft {
+    flex: 3;
+}
+.headerCentre {
+    flex: 5;
+}
+.headerRight {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex: 4;
+}
+.headerIcons {
+    width: 50%;
+    align-items: center;
+    display: flex;
+   background-color:#2d83f4;}
+.headerIconItem {
+    font-size: 20px;
+    width: 100%;
+    position: relative;
+}
+.personIcon {
+    font-size: 25px;
+    color: white;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.notificationIcon {
+    font-size: 25px;
+color: white;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.messengerIcon {
+    font-size: 26px;
+        margin-left: 20px;
+        color: white;
+        cursor: pointer;
+}
+
+.headerIconBadge {
+    color: white;
+    border-radius: 100px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    font-size: 12px;
+    left: 35px;
+    top: -5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.homeIcon {
+    font-size: 25px;
+        color: white;
+        margin-left: 20px;
+        cursor: pointer;
+}
+.menuIcon {
+    font-size: 25px;
+        color: white;
+        margin-left: 250px;
+        cursor: pointer;
+}

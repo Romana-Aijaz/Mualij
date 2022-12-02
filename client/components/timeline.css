@@ -1,0 +1,70 @@
+.timelineContainer {
+    width: 100%;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+        box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+        padding: 10px;
+        margin: 30px 0;
+}
+.timelineWrapper {
+    padding: 10px;
+}
+.postProfilePic {
+    width: 55px;
+        height: 55px;
+        border-radius: 50%;
+}
+.timelineTop {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.topLeft {
+    display: flex;
+    align-items: center;
+}
+.timelineUsername {
+    font-size: 15px;
+    font-weight: 500;
+    margin: 0 10px;
+
+}
+.timelinePostDate {
+    font-size: 12px;
+}
+.timelineImage {
+    width: 100%;
+    max-height: 600px;
+    object-fit: contain;
+}
+.timelineCenter {
+  margin-top: 10px;
+    justify-content: space-between;
+}
+.timelineBottom {
+    margin-top: 10px;
+    justify-content: space-between;
+    display:inline-flex;
+}
+.likeButton {
+    font-size: 30px;
+    cursor: pointer;
+    border: 0px;
+    background-color: white;
+    cursor: pointer;
+}
+.commentButton {
+    font-size: 25px;
+    cursor: pointer;
+    border: 0px;
+    background-color: white;
+    cursor: pointer;
+}
+.noOfLikes {
+    font-size: 15px;
+    text-align: center;
+    width: 150px;
+    display: flex;
+    height: 20px;
+    margin-top: 10px;
+}
